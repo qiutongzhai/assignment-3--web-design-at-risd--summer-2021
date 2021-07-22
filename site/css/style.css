@@ -1,33 +1,33 @@
 body {
-  font-family: Roboto, sans-serif;
-  margin: 20px;
+  font-family: var(--font-reading);
+  font-size: 16px;
+  width: 1000px;
+  margin: auto;
   }
-header {
-  font-family: Spartan, sans-serif;
-  font-size: 4rem;
+ :root {
+  --font-display: Spartan, sans-serif;
+  --font-reading: Roboto, sans-serif;
 }
-background {
-  url('img/book-cover.jpg');
-  url("https://libadmin.ugent.be/settings/uploads/catalog_records/images/a7/91/rug01-002378057/original.jpg") no-repeat left;
+
+header {
+  font-family: var(--font-display);
+  font-size: 4rem;
 }
 
 table {
   border-collapse: collapse;
   width: 400px;
 }
-table.menu {
-    width: auto;
-    margin-right: 0px;
-    margin-left: 50%;
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+ div > p {
+  width: 200px;
 }
 
-td,th {
-  border: 1px;
-  padding: 0.5rem;
-  text-align: left;
-}
-th {
-  font-size: 3rem;
-  font-family: Spartan, sans-serif;
-  font-weight: 600;
+.big-numbers {
+  font-family: var(--font-display);
+  font-size: 4rem;
 }
