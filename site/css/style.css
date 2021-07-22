@@ -57,18 +57,26 @@ main {
   line-height: 1.6;
 }
 
-p {
-  margin: 10px 0;
+main h5{
+  width:50px;
+  padding: 2px;
 }
 
-h4{
-  float: left;
+main h4{
   width: 150px;
-  font-size: 2rem;
+  height:60px;
+  font-size: 1.6rem;
   font-weight: 500;
+  padding: 8px;
+}
+
+main p {
+  width: 600px;
   padding: 10px;
 }
 
-main > p {
-  padding: 10px;
+main {
+  width: 860px;
+  display: flex;
+  flex-wrap: wrap;
 }
